@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #BF9E80;
+	background-image: url("zenpic.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+main {
+width: 80%;
+margin: auto;	
+}
+
+header {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-weight: bold;
+	background-color: #B096E0;
+	color: #FA6672;
+	padding: 1%;
+	padding-top: 2%;
+	font-size: 3.5em;
+}
+
+nav { 
+font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 2em;
+	font-weight: bold;
+	color: #F78B6D;
+	background-color: #C2DAFE;
+	padding: 1%;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+	padding-right: 5%;
+	display: inline;
+}
+
+article {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 1em;
+	background-color: #F2E3D5;
+	padding: 1%;
+	color: #011640
+}
+
+.subhead {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #B096E0;
+	padding: 0;
+}
+
+.floatleft {
+	float: left;
+	size: 20%;
+}
+
+.floatright {
+	float: right;
+}
+
+footer {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: .75;
+	font-weight: bold;
+	background-color: #B096E0;
+	color: #011640;
+	padding: 1%;
+
+}
+
+a:link {
+	color: #FA6672;
+	text-decoration: none;
+	padding: 1%;
+}
+
+a:visited {
+	color: #FA6672;
+}
+
+a:hover {
+	color: #FA6672;
+	background-color: #FEF4A5;
+}
+
+a:active {
+	opacity: 0;
+}
+
+article {
+		column-count: 1;
+	}
