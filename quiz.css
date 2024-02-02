@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: grey;
+	background-image: url("Images /star-wars-logo-black-and-white.png");
+ 	background-size: 6%;
+}
+
+main{
+	width: 60%;
+	margin: auto
+	
+}
+
+header{
+	
+}
+
+h1{
+	font-size: 4em;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	border: medium black solid;
+	background-color: #D0D5F2;
+	padding:1%;
+	animation-name: dropin;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+
+section{
+	background-color:#D0D5F2;
+	padding: 1%; 
+	border: medium black solid;
+	margin-left: 0%;
+}
+
+section img{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10, #results {
+	display: none;		
+}
+
+#results {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	background-color:#D0D5F2;
+	border: medium black solid;
+	font-size: 2em;
+	text-align: center;
+	padding: 1%;	
+}
+
+#results img {
+	width: 30%;
+	
+}
+
+h2{
+	font-size: 2em;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+}
+
+button{
+	font-size: 1.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	width: 100%;
+	padding: 1%;		
+	background-color: rgba(255, 255, 255);
+}
+
+button:hover{
+	background-color: rgba(130,255,188,.5);
+}
+
+button:active{
+	background-color: antiquewhite;
+	color: antiquewhite;
+	opacity:0;
+}
+
+@keyframes dropin {
+	0%{
+	 	transform: translateY(-200%)
+	}
+	
+	75%{
+		transform: translateY(50%)
+	}
+	
+	100%{
+		transform: translateY(0)
+	}
+}
