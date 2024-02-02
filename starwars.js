@@ -30,15 +30,15 @@ else{
 function showresults(){
 	
 	if(rights<5){
-	document.getElementById("results").innerHTML=("You got "+rights+" answers right!<p> <img src='Images /luke.png'></p><p>The force may not be with you!</p>");
+	document.getElementById("results").innerHTML=("You got "+rights+" answers right!<p> <img src='Images/luke.png'></p><p>The force may not be with you!</p>");
 	}
 	
 	else if (rights<10){
-	document.getElementById("results").innerHTML=("You got "+rights+" answers right!<p><img src= 'Images /masteryoda.png'></p><p>May the force be with you.</p>");
+	document.getElementById("results").innerHTML=("You got "+rights+" answers right!<p><img src= 'Images/masteryoda.png'></p><p>May the force be with you.</p>");
 	}
 	
 	else{
-	document.getElementById("results").innerHTML=("You got "+rights+" answers right!<p><img src='Images /maytheforce.jpeg'></p><p>You are a Star Wars fan!</p>");
+	document.getElementById("results").innerHTML=("You got "+rights+" answers right!<p><img src='Images/maytheforce.jpeg'></p><p>You are a Star Wars fan!</p>");
 	}
 	
 	document.getElementById("results").style.display="block";
